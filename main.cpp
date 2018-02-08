@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 char letter;
-  cout<<"What character do you want to know about?\n";
+  cout<<"What character do you want to know about?"<<endl;
   cin>> letter;
 
   //when user's entry is between A-Z...
