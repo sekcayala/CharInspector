@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 char letter;
-  cout<<"What character do you want to know about?";
+  cout<<"What character do you want to know about?\n";
   cin>> letter;
 
   //when user's entry is between A-Z...
@@ -20,7 +20,7 @@ char letter;
   cout<< letter<<" is a lower case letter!\n";
   }
   //in all other cases...
-  else if (letter>='A' && letter<='z')
+  else 
   {
   cout<< letter<<"?! Pssh. What are you talking about?\n";
   }
